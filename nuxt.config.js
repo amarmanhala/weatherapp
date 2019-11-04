@@ -50,9 +50,6 @@ export default {
   proxy: {
     '/api': {
       target: 'https://api.darksky.net/forecast/4085764b2e7e3e1b178c05d401e83d7d/43.6532,-79.3832?units=si&exclude=minutely,hourly,daily,alerts',
-      pathRewrite: {
-        '^/api' : '/'
-        }
       }
   },
   /*
